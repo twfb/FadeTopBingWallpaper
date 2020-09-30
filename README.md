@@ -6,7 +6,7 @@
 ![](example.gif)
 
 ### FadeTop功能
-定时淡入提醒休息
+定时淡入提醒休息, 已放在FadeTop文件夹里面无需在手动安装
 
 ### 本软件功能
 每日定时更新Fade Top背景图为必应图片, 如果安装了[Dynamic Theme](https://www.microsoft.com/zh-cn/p/dynamic-theme/9nblggh1zbkw)则从本地获取图片, 否则从网络上下载
