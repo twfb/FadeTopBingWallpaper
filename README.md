@@ -5,7 +5,7 @@
 ### 效果图
 ![](example.gif)
 
-### Fade Top功能
+### FadeTop功能
 定时淡入提醒休息
 
 ### 本软件功能
@@ -14,7 +14,7 @@
 ### 下载
 - 如果环境变量中有python3, 则可以直接clone项目, 然后修改install.bat的python地址
 - 小白可以通过这里一键下载安装
-    - 链接: https://pan.baidu.com/s/1A1ziAalH76IxZcjFt95Jiw
+    - 链接: 
     - 提取码: twfb
 
 ### 安装
