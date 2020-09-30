@@ -16,8 +16,8 @@
 
 ### 下载
 - 如果环境变量中有python3, 则可以直接clone项目, 然后修改install.bat的python地址
-- 小白可以通过这里一键安装
-    - 链接：https://pan.baidu.com/s/1A1ziAalH76IxZcjFt95Jiw 
+- 小白可以通过这里一键下载安装
+    - 链接： 
     - 提取码：twfb
  
 ### config.txt示例
