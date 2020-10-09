@@ -92,9 +92,13 @@ def change_wallpaper(motto, image_path):
         f.write(setting_xml_str.encode('utf8'))
 
 
-def kill_FadeTop():
-    os.system('taskkill /F /im FadeTop.exe')
+def kill_process_by_name(process_name):
+    for i in os.popen('tasklist').read().split('\n'):
+        if process_name in i:
+            os.system('taskkill /F /PID {}'.format(i.split()[1]))
 
+def kill_FadeTop():
+    kill_process_by_name('FadeTop.exe')
 
 def start_FadeTop():
     os.system('"{}"'.format(os.path.join(ROOT_DIR, 'FadeTop','FadeTop.exe')))
