@@ -41,11 +41,11 @@ def get_config():
     config_file_path = os.path.join(ROOT_DIR, 'config.txt')
     motto = '请在config.txt文件中配置'
     if os.path.exists(config_file_path):
-        with open(config_file_path, 'r') as m:
-            motto = m.read()
+        with open(config_file_path, 'rb') as m:
+            motto = m.read().decode('utf8')
     else:
-        with open(config_file_path, 'w') as m:
-            m.write(motto)
+        with open(config_file_path, 'wb') as m:
+            m.write(motto.encode('utf8'))
     return motto
 
 
