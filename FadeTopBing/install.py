@@ -23,4 +23,4 @@ os.system(start_fadetop_bing)
 
 
 os.system('SCHTASKS /Create /F /SC ONLOGON /TN "Fadetop Bing logon" /TR {} /DELAY 0005:00'.format(start_fadetop_bing))
-os.system('SCHTASKS /Create /F /SC HOURLY /TN "Fadetop Bing hourly" /TR {} /ST 15:00 /ET 19:00'.format(start_fadetop_bing))
+os.system('SCHTASKS /Create /F /SC HOURLY /TN "Fadetop Bing hourly" /TR {} /DELAY 0060:00'.format(start_fadetop_bing))
