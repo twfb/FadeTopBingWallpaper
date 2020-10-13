@@ -13,7 +13,7 @@
 ### 下载
 - 如果环境变量中有python3, 则可以直接clone[该项目](https://github.com/twfb/FadeTop-Bing-Wallpaper), 然后修改install.bat的python地址
 - 小白可以通过这里一键下载安装
-    - 链接：https://pan.baidu.com/s/1BxSBgSNZ2X1pqbYfmnAPYg 
+    - 链接：https://pan.baidu.com/s/1sv_n3UKMhwaXec3IslU31w 
     - 提取码: twfb
 
 ### 安装
